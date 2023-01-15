@@ -1,0 +1,118 @@
+.benefits{
+    margin-bottom: 60px;
+    padding-bottom: 0;
+    padding-top: 60px;
+}
+.benefits__items{
+   max-width: 450px;
+   }
+.benefits__picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+    height:120px ;
+    background-color: var(--backgraund__icon);
+    margin-bottom: 30px;
+}
+.benefits__icon{
+    width: 70px;
+    height: 70px;
+}
+.benefits__title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--maine__color__dark) ;
+}
+.benefit__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--maine__color__secondery);
+}
+@media screen and (min-width: 768px){
+.benefits{
+    margin-bottom: 60px;
+}
+
+    .benefits__list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+       }
+       .benefits__items{
+        flex-basis: 354px;
+        margin-left: 30px;
+        
+       }
+    
+
+}
+@media screen and (min-width: 1200px){
+    .benefits__list{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: -30px;
+       }
+       .benefits__items{
+        flex-basis: 270px;
+        margin-left: 30px;
+        
+       }
+       .benefits{
+        padding-bottom: 0;
+        padding-top: 94px;
+    }
+}
+
+/* .benefits{
+    padding-bottom: 0;
+}
+.benefits__conteiner{
+ @extend %conteiner;
+}
+.benefits__list{
+ @extend %list;
+
+ display: flex;
+ margin-left: -30px;
+}
+.benefits__items{
+ margin-left: 30px;
+ flex-basis: 270px;
+}
+.benefits__picture{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
+ height:120px ;
+ background-color: var(--backgraund__icon);
+ margin-bottom: 30px;
+}
+.benefits__icon{
+ width: 70px;
+ height: 70px;
+}
+.benefits__title{
+ margin-bottom: 10px;
+     
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color:var(--maine__color__dark) ;
+}
+.benefit__text{
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;
+ color: var(--maine__color__secondery);
+} */

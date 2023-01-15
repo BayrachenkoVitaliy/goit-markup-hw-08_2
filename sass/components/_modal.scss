@@ -1,0 +1,136 @@
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0;
+}
+
+.modal {
+    position: relative;
+    /* left: 50%;
+    top: 50%; */ 
+    margin: 0 auto 0 auto;
+    
+    width: 450px;
+    padding: 40px;
+    height: 581px;
+   
+    background-color: var(--maine__color__light);
+    opacity: 1;
+    /* transform: translate(-50%, -50%); */
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--maine__color__light);
+    color: var(--maine__color__dark);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    cursor: pointer;
+
+    &:hover ,
+    &:focus{
+    color: var(--accent__color);}
+
+}
+
+.modal__icon{
+    fill: currentColor;
+}
+@media screen and (max-width:767px){
+    .modal{
+       
+    }
+}
+
+@media screen and (min-width:768px) {
+    .modal{
+        
+    }
+
+    /* .modal {
+         position: absolute;
+         left: 50%;
+         top: 50%;
+     
+        transform: translate(-50%, -50%);
+        
+     } */
+}
+@media screen and (min-width: 1200px){
+    .modal{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 523px;
+        transform: translate(-50%, -50%);
+
+        width: 528px;
+        padding: 40px;
+        height: 581px;
+    }
+}
+
+/* .backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0;
+}
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 528px;
+    padding: 40px;
+    height: 581px;
+   
+    background-color: var(--maine__color__light);
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--maine__color__light);
+    color: var(--maine__color__dark);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    cursor: pointer;
+
+    &:hover ,
+    &:focus{
+    color: var(--accent__color);}
+
+}
+
+.modal__icon{
+    fill: currentColor;
+}
+ */
