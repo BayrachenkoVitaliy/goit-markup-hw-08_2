@@ -1,8 +1,5 @@
 .header{
-   
     position: relative;
-
-    
 }
 
 .header__conteiner{
@@ -81,38 +78,3 @@
     }
    
     }
-
-    
-
-
-/* .header{
-    border-bottom: 1px solid #ECECEC;
-}
-
-.header__conteiner{
-    @extend %conteiner;
-
-    display: flex;
-}
-
-.logo__header{
-    align-self: center;
-}
-
-.current::after{
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    left: -4%;
-
-    display: inline-block;
-    width: 108%;
-    height: 4px;
-    background-color: var(--accent__color);
-    border-radius: 2px;
-} */
-
-
-
-
-

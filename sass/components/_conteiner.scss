@@ -6,16 +6,13 @@
     .conteiner{
         margin: 0 auto;
         width: 480px; 
-       
-        
-    }
+     }
 }
 @media screen and (min-width: 768px) {
     .conteiner{
         display: flex;
         width: 768px; 
     }
-    
 }
 
 @media screen and (min-width: 1200px) {

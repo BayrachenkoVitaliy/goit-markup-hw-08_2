@@ -55,14 +55,12 @@ letter-spacing: 0.02em;
 &:hover,
 &:focus{
     color: var(--accent__color);
-}
-
+    }
 }
 
 .mobail-menu__items:not(:last-child){
     margin-bottom: 32px;
 }
-
 .mobail-menu__contact{
     @extend %list;
 
