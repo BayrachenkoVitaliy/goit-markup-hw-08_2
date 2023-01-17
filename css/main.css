@@ -554,8 +554,14 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .potrfolio-nav__button {
+    display: block;
+  }
   .potrfolio-nav__list {
     justify-content: start;
+  }
+  .potrfolio-nav__list {
+    margin-bottom: 15px;
   }
 }
 .experience {
