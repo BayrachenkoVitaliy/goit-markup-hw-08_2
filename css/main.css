@@ -560,7 +560,7 @@ img {
   .potrfolio-nav__list {
     justify-content: start;
   }
-  .potrfolio-nav__list {
+  .potrfolio-nav_items:not(:last-child) {
     margin-bottom: 15px;
   }
 }
